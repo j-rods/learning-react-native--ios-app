@@ -2,6 +2,8 @@
 import React, { component } from 'react';
 import { AppRegistry, Text, View, StyleSheet } from 'react-native';
 
+var DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+
 
 // Create a react component
 var Weekdays = React.createClass({
@@ -18,8 +20,8 @@ var Weekdays = React.createClass({
 var styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center'
+    justifyContent: 'center', // now moves stuff height wise
+    alignItems: 'center' // now moves stuff width wise
   }
 });
 
