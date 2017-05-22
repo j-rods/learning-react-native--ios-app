@@ -30,7 +30,8 @@ var styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center', // now moves stuff height wise
-    alignItems: 'center' // now moves stuff width wise
+    alignItems: 'center', // now moves stuff width wise
+    backgroundColor: '#10A5CA',
   }
 });
 
