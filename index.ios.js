@@ -1,15 +1,25 @@
 // Import some code we need
 import React, { component } from 'react';
-import { AppRegistry, Text, View } from 'react-native';
+import { AppRegistry, Text, View, StyleSheet } from 'react-native';
+
 
 // Create a react component
 var Weekdays = React.createClass({
   render: function() {
-    return <View>
+    return <View style={styles.container}>
       <Text>
         Days of the week:
       </Text>
     </View>
+  }
+});
+
+// Style the React component
+var styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center'
   }
 });
 
